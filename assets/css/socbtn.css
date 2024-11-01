@@ -1,0 +1,179 @@
+/* https://www.iconfinder.com/editor/ */
+.social-button {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    z-index: 9999;
+    -webkit-transition: top 0.3s cubic-bezier(.37,.11,.35,1.26) 0s;
+    -moz-transition: top 0.3s cubic-bezier(.37,.11,.35,1.26) 0s;
+    -ms-transition: top 0.3s cubic-bezier(.37,.11,.35,1.26) 0s;
+    -o-transition: top 0.3s cubic-bezier(.37,.11,.35,1.26) 0s;    
+    transition: top 0.3s cubic-bezier(.37,.11,.35,1.26) 0s;
+}
+.social-button .counter {
+    display: none;
+}
+.social-button.sticky {
+    position: fixed;
+}
+.social-button.sticky.left,
+.social-button.sticky.right {
+    flex-direction: column !important;
+    -webkit-flex-direction:  column !important;
+}
+.social-button.sticky.left { 
+    left: 0;
+}
+.social-button.sticky.right { 
+    right: 0; 
+}
+.socbtn {
+    margin-left: 5px;
+    cursor:pointer;
+}
+.social-button.sticky .socbtn {
+    margin-bottom: 5px !important;
+}
+.socbtn .icon {
+    width: 42px;
+    height: 42px;
+    background-size: contain;
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(.39,-0.2,.16,2.22) 0s;
+    -moz-transition:-moz-transform 0.3s cubic-bezier(.39,-0.2,.16,2.22) 0s;
+    -ms-transition: -ms-transform 0.3s cubic-bezier(.39,-0.2,.16,2.22) 0s;
+    -o-transition: -o-transform 0.3s cubic-bezier(.39,-0.2,.16,2.22) 0s;
+    transition: transform 0.3s cubic-bezier(.39,-0.2,.16,2.22) 0s;  
+}
+.social-button.small .socbtn .icon {
+    width: 24px !important;
+    height: 24px !important; 
+}
+.socbtn .icon:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.socbtn .facebook { 
+    background-image: url('soc_icon/facebook.svg');
+    background-repeat: no-repeat;
+}
+
+.socbtn .facebook:hover { 
+    background-image: url('soc_icon/facebook-hover.svg');
+    background-color: #3c5a99;
+}
+.socbtn .google { 
+    background-repeat: no-repeat;
+    background-image: url('soc_icon/google.svg');
+}
+.socbtn .google:hover { 
+    background-image: url('soc_icon/google-hover.svg');
+    background-color: #de4b39;
+}
+.socbtn .linkedin { 
+    background-repeat: no-repeat;
+    background-image: url('soc_icon/linkedIn.svg');
+}
+.socbtn .linkedin:hover { 
+    background-image: url('soc_icon/linkedIn-hover.svg');
+    background-color: #007bb5;
+}
+.socbtn .vk { 
+    background-image: url('soc_icon/vk.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .vk:hover { 
+    background-image: url('soc_icon/vk-hover.svg');
+    background-color: #5281b7;
+}    
+.socbtn .instagram { 
+    background-image: url('soc_icon/instagram.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .instagram:hover { 
+    background-image: url('soc_icon/instagram-hover.svg');
+    background-color: #ba31a5;
+}
+.socbtn .twitter { 
+    background-image: url('soc_icon/twitter.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .twitter:hover { 
+    background-image: url('soc_icon/twitter-hover.svg');
+    background-color: #55acee;
+} 
+.socbtn .pinterest { 
+    background-image: url('soc_icon/pinterest.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .pinterest:hover { 
+    background-image: url('soc_icon/pinterest-hover.svg');
+    background-color: #C9151C;
+} 
+.socbtn .tumblr { 
+    background-image: url('soc_icon/tumblr.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .tumblr:hover { 
+    background-image: url('soc_icon/tumblr-hover.svg');
+    background-color: #44546a;
+} 
+.socbtn .livejournal { 
+    background-image: url('soc_icon/livejournal.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .livejournal:hover { 
+    background-image: url('soc_icon/livejournal-hover.svg');
+    background-color: #459dbf;
+} 
+.socbtn .viber { 
+    background-image: url('soc_icon/viber.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .viber:hover { 
+    background-image: url('soc_icon/viber-hover.svg');
+    background-color: #74428b;
+} 
+.socbtn .skype { 
+    background-image: url('soc_icon/skype.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .skype:hover { 
+    background-image: url('soc_icon/skype-hover.svg');
+    background-color: #00b8ed;
+} 
+.socbtn .yahoo { 
+    background-image: url('soc_icon/yahoo.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .yahoo:hover { 
+    background-image: url('soc_icon/yahoo-hover.svg');
+    background-color: #9304d0;
+} 
+.socbtn .ok { 
+    background-image: url('soc_icon/ok.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .ok:hover { 
+    background-image: url('soc_icon/ok-hover.svg');
+    background-color: #ff6501;
+} 
+.socbtn .ya { 
+    background-image: url('soc_icon/ya.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .ya:hover { 
+    background-image: url('soc_icon/ya-hover.svg');
+    background-color: #f00;
+}
+.socbtn .mailru { 
+    background-image: url('soc_icon/mailru.svg');
+    background-repeat: no-repeat;
+}
+.socbtn .mailru:hover { 
+    background-image: url('soc_icon/mailru-hover.svg');
+    background-color: #168de2;
+} 
